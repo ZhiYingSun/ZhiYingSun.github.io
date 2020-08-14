@@ -34,7 +34,7 @@ i.fab {
 
 /* section 1 */
 .section-1{
-    padding-top: 25vh;
+    padding-top: 30vh;
     padding-left: 20vw;
     text-align: center;
 }
@@ -56,13 +56,13 @@ i.fab {
 }
 /* section 2 */
 .section-2{
-    padding-top: 33vh;
+    padding-top: 23vh;
     padding-bottom: 10vh;
     width: 70%;
 }
 
 .section-2 h2{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-top: 2em;
     margin-bottom: 20px;
 }
@@ -83,7 +83,7 @@ i.fab {
 }
 
 .section-2 a{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #fff;
 }
 
