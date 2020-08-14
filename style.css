@@ -82,7 +82,7 @@ i.fab {
     color: #fff;
 }
 
-.section-2 a{   
+.section-2 a{
     font-size: 1.2rem;
     color: #fff;
 }
@@ -118,5 +118,6 @@ i.fab {
         padding: 0;
         padding-left: 1.5rem;
         padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 }
