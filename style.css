@@ -1,6 +1,46 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+#window {
+    height: 150px; /*  size of the profile */
+    width: 150px;
+    background-image: url(sophy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid #6d6a6a;
+    box-sizing: content-box;
+   
+  }
+  #window-container {
+    border-radius: 50%;
+    transition: 0.3s ease all;
+   
+  }
+  
+  #window-container:hover {
+    transform: scale(0.99);
+  }
+  #window-inner-container {
+    height: 160px;          /*  size of the border */
+    width: 160px;
+    border-radius: 50%;
+    border: 5px solid #444444;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 5px #444444;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* #window-inner-container:hover {
+    border-color: black;
+    box-shadow: 0px 0px 5px black;
+  } */
+  #window-cirle-container:hover {
+    box-sizing: content-box;
+  }
+
+
 .grid-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
