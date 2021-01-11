@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
-  border: 5px solid #ffffff;
+  border: 5px solid #272629;
   box-sizing: content-box;
 }
 #window-container {
@@ -23,9 +23,9 @@
   height: 160px; /*  size of the border */
   width: 160px;
   border-radius: 50%;
-  border: 5px solid #ffffff;
+  border: 5px solid #272629;
   box-sizing: content-box;
-  box-shadow: 0px 0px 5px #ffffff;
+  box-shadow: 0px 0px 5px #272629;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -47,21 +47,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  color: #383838;
+  background-color: #272629;
+  color: #ffffff;
 }
 
 h2,
 .white {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 h3 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 a {
-  color: #a55031;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ i.fab {
 
 /* section 1 */
 .section-1 {
-  padding-top: 21vh;
+  padding-top: 18.3vh;
   padding-left: 20vw;
   text-align: center;
 }
@@ -95,14 +95,10 @@ i.fab {
 
 .section-2 span {
   font-size: 1.7rem;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0) 50%,
-    #ec9c6a 50%
-  );
+  
   background-position: -0% 0;
   background-size: 200% auto;
-  color: #222;
+  color: rgb(255, 255, 255);
   line-height: 1.15em;
   text-decoration: none;
   transition: background-position 0.5s ease-out;
@@ -142,24 +138,23 @@ i.fab {
 }
 
 .section-2 .fa-li i {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .section-2 a {
   font-size: 1.1rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .section-2 a:hover {
-  color: rgb(34, 34, 34);
+  color: rgb(245, 245, 245);
   cursor: pointer;
   transition: 0.2s;
-  border-bottom: 1px solid rgb(83, 83, 83);
 }
 
 .section-1 a:hover,
 .icon-link-container a:hover {
-  color: #772f15;
+  color: rgb(224, 221, 221);
   cursor: pointer;
   transition: 0.3s;
 }
