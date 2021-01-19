@@ -22,11 +22,16 @@ body {
   margin-right: 2rem;
 }
 
+.text h4 {
+  font-weight: 600;
+}
+
 .text a {
   color: black;
   text-decoration: underline;
   text-decoration-color: #6D6D6D;
   text-decoration-thickness: 2px;
+  font-weight: 700;
 }
 
 .sidebar {
