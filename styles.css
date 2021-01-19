@@ -22,6 +22,13 @@ body {
   margin-right: 2rem;
 }
 
+.text a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #6D6D6D;
+  text-decoration-thickness: 2px;
+}
+
 .sidebar {
   float: right;
   margin-right: 10rem;
@@ -31,7 +38,7 @@ body {
 
 .sidebar a {
   color: #646060;
-  text-decoration:none
+  text-decoration:none;
 }
 
 .sidebar a:hover{
